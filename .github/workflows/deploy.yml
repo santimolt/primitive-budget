@@ -44,11 +44,17 @@ jobs:
             exit 1
           fi
           echo "Build verification successful"
+          echo "Checking HTML content..."
+          echo "--- dist/index.html content ---"
+          cat dist/index.html
+          echo "--- End of HTML ---"
+          echo ""
           echo "Checking if base path is applied..."
           if grep -q "/primitive-budget/" dist/index.html; then
             echo "✓ Base path correctly applied in HTML"
           else
-            echo "⚠ Warning: Base path may not be in HTML, but Vite should handle it"
+            echo "⚠ Warning: Base path not found in HTML"
+            echo "This may indicate the build is not using the base path correctly"
           fi
       
       - name: Setup Pages
