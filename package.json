@@ -1,0 +1,45 @@
+{
+  "name": "budget-primitivo",
+  "version": "1.0.0",
+  "description": "Aplicación web moderna para gestionar presupuesto personal con registro de ingresos y egresos",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/budget-primitivo.git"
+  },
+  "keywords": [
+    "presupuesto",
+    "budget",
+    "finanzas",
+    "ingresos",
+    "egresos",
+    "react",
+    "vite",
+    "chakra-ui"
+  ],
+  "author": "Santiago Moltedo",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.2",
+    "recharts": "^2.10.3",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  }
+}
