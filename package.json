@@ -1,11 +1,11 @@
 {
-  "name": "budget-primitivo",
+  "name": "primitive-budget",
   "version": "1.0.0",
   "description": "Aplicación web moderna para gestionar presupuesto personal con registro de ingresos y egresos",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tu-usuario/budget-primitivo.git"
+    "url": "https://github.com/tu-usuario/primitive-budget.git"
   },
   "keywords": [
     "presupuesto",
