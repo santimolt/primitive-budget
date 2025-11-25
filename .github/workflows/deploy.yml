@@ -43,6 +43,12 @@ jobs:
             echo "Build failed: index.html not found in dist"
             exit 1
           fi
+          # Verify that base path is correctly applied in HTML
+          if ! grep -q "/primitive-budget/" dist/index.html; then
+            echo "Warning: Base path may not be correctly applied in index.html"
+            echo "Contents of dist/index.html:"
+            cat dist/index.html
+          fi
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
