@@ -1,4 +1,4 @@
-# 💰 Primitive Budget
+# Primitive Budget
 
 A modern web application to manage your personal budget, record income and expenses, and visualize your financial situation clearly and intuitively.
 
@@ -7,19 +7,19 @@ A modern web application to manage your personal budget, record income and expen
 ![Chakra UI](https://img.shields.io/badge/Chakra%20UI-2.8.2-319795?logo=chakra-ui)
 ![Zustand](https://img.shields.io/badge/Zustand-4.4.7-FF6B6B)
 
-## ✨ Features
+## Features
 
-- 📊 **Complete Dashboard**: Visualize your monthly balance, income, expenses and breakdown by categories
-- 💵 **Transaction Management**: Record, edit and delete income and expenses with amount, description and category
-- 🔄 **Flexible Periodicity**: Configure transactions as daily, weekly, monthly, yearly, one-time or custom
-- 🏷️ **Category System**: Predefined categories and ability to create custom categories
-- 🔘 **Expense Toggle**: Activate or deactivate expenses from the dashboard to see how they affect your budget in real time
-- 📈 **Interactive Charts**: Visualize your data with donut charts (surplus vs expenses) and pie charts (distribution by category)
-- 💾 **Export/Import**: Save and load your data in JSON format
-- 🌓 **Dark Mode**: Interface with support for light and dark mode
-- 💰 **Number Formatting**: Automatic formatting with thousands separators and decimals
+- **Complete Dashboard**: Visualize your monthly balance, income, expenses and breakdown by categories
+- **Transaction Management**: Record, edit and delete income and expenses with amount, description and category
+- **Flexible Periodicity**: Configure transactions as daily, weekly, monthly, yearly, one-time or custom
+- **Category System**: Predefined categories and ability to create custom categories
+- **Expense Toggle**: Activate or deactivate expenses from the dashboard to see how they affect your budget in real time
+- **Interactive Charts**: Visualize your data with donut charts (surplus vs expenses) and pie charts (distribution by category)
+- **Export/Import**: Save and load your data in JSON format
+- **Dark Mode**: Interface with support for light and dark mode
+- **Number Formatting**: Automatic formatting with thousands separators and decimals
 
-## 🚀 Technologies
+## Technologies
 
 - **React 18.2.0** - UI library
 - **Vite 5.0.8** - Build tool and dev server
@@ -28,12 +28,12 @@ A modern web application to manage your personal budget, record income and expen
 - **Recharts 2.10.3** - Charts and visualizations
 - **React Hook Form 7.48.2** - Form handling
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 16+ 
 - npm or yarn
 
-## 🔧 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -55,7 +55,7 @@ npm run dev
 
 4. Open your browser at `http://localhost:5173`
 
-## 📖 Usage
+## Usage
 
 ### Add Transactions
 
@@ -98,7 +98,7 @@ The dashboard shows:
 - **Import**: Use "Import JSON" to load previously exported data
 - Files are saved with format: `budget-YYYY-MM-DD.json`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 budget-primitivo/
@@ -125,7 +125,7 @@ budget-primitivo/
 └── README.md
 ```
 
-## 🎯 Periodicity
+## Periodicity
 
 The system automatically calculates monthly amounts based on periodicity:
 
@@ -149,7 +149,7 @@ npm run build
 npm run preview
 ```
 
-## 🤝 Contributions
+## Contributions
 
 Contributions are welcome! Please:
 
@@ -159,19 +159,17 @@ Contributions are welcome! Please:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is under the MIT License - see the [LICENSE](LICENSE) file for more details.
 
-## 👤 Author
+## Author
 
 **Santiago Moltedo**
 
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
+- GitHub: [@santimolt](https://github.com/santimolt)
 
-> Note: Replace `tu-usuario` with your GitHub username when cloning the repository.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Chakra UI](https://chakra-ui.com/) for the components
 - [Recharts](https://recharts.org/) for the visualizations
